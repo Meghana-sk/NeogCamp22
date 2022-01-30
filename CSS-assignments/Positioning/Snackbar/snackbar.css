@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+body {
+  font-family: "Itim", sans-serif;
+  color: whitesmoke;
+}
+
+.snackbar {
+  max-width: 28rem;
+  height: 3rem;
+  background-color: #333333;
+  padding: 0.4rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.text-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blueViolet-text {
+  color: blueviolet;
+  background-color: transparent;
+  border: none;
+}
+
+.blueViolet-text:hover {
+  filter: brightness(150%);
+}
+
+.close-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+i {
+  object-fit: cover;
+}
+
+.close-icon:hover {
+  background-color: rgb(226, 226, 229, 0.1);
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: blueviolet;
+  color: whitesmoke;
+  border: none;
+  border-radius: 3px;
+}
+
+.hidden-snackbar {
+  visibility: hidden;
+}
+
+.snackbar-baseline {
+  position: fixed;
+  margin: 0;
+  left: 40%;
+  bottom: 0;
+}
+
+.snackbar-leading {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.snackbar-stacked {
+  position: fixed;
+  left: 50px;
+  right: 50px;
+}
