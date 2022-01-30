@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+#input-box {
+  flex-grow: 1;
+}

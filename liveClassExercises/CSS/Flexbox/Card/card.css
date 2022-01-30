@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  max-width: 25rem;
+  border: 5px solid gray;
+  flex-direction: column;
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid green;
+  align-items: center;
+  padding: 5px;
+}
+
+.close-icon {
+  margin-left: auto;
+}
+p {
+  display: inline-block;
+}
+
+.content {
+  border-bottom: 1px solid green;
+  padding: 5px;
+}
+footer {
+  align-self: flex-end;
+}
+
+button {
+  background-color: blue;
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 2px;
+}
