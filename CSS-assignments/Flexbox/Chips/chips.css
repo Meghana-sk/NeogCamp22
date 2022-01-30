@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+.chips-container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  gap: 0.3rem;
+}
+
+.chips {
+  border: 1px solid gray;
+  padding: 0.2rem;
+  border-radius: 0.6rem;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+span {
+  color: lightblue;
+  text-align: center;
+}
+
+.fab {
+  align-self: flex-start;
+}
+
+.far {
+  align-self: flex-end;
+}
