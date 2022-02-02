@@ -1,0 +1,44 @@
+.tabs-types {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tabs-container {
+  /* width: 25rem; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+i {
+  padding-right: 0.5rem;
+  /* position: fixed; */
+}
+
+.tabs-overflow {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 30rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.tab {
+  display: flex;
+  flex-shrink: 0;
+  gap: 0.2rem;
+  width: 10rem;
+  padding: 0.5rem;
+  color: rgb(129, 119, 119);
+}
+
+.tab-one {
+  background-color: rgb(241, 236, 246);
+  color: blueviolet;
+  border-bottom: 2px solid rgb(132, 7, 185);
+}
+
+.tab:hover {
+  background-color: rgb(241, 236, 246);
+}
