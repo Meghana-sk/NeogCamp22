@@ -26,6 +26,8 @@ i {
 
 .tab {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-shrink: 0;
   gap: 0.2rem;
   width: 10rem;
