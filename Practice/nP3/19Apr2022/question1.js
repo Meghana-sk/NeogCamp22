@@ -1,3 +1,5 @@
+//Write a program to abbreviate every word which are more than 5 letters in length, in a sentence. You can achieve this by counting the length in between the first and last letter of each word and then putting them in between.
+
 const input = 'You should know about accessibility and javascript amanjain';
 
 const abbreviatedResult = input.split(' ').map(word =>

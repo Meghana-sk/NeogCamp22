@@ -1,3 +1,5 @@
+// Given a name as an input string. Pick out the initial letter of each word and abbreviate the name. The sentence will contain only alphabetic words and no numbers or roman numerals.
+
 const input = "Hey aman Jain";
 //HAJ
 
